@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficos de Energía Renovable</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de tener este archivo CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.1.2/chart.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script> <!-- Para la carga de CSV -->
+</head>
+
+<body>
+    <h1>Gráficos de Energía Renovable</h1>
+
+    <div class="grafico-container">
+        <h2>Gráfico de Torta</h2>
+        <canvas id="graficoTorta" width="600" height="400"></canvas>
+    </div>
+
+    <div class="grafico-container">
+        <h2>Gráfico de Barras</h2>
+        <canvas id="graficoBarras" width="600" height="400"></canvas>
+    </div>
+
+    <div class="grafico-container">
+        <h2>Gráfico de Area</h2>
+        <canvas id="graficoArea" width="600" height="400"></canvas>
+    </div>
+
+    <div class="grafico-container">
+        <h2>Gráfico de Curvas (Capacidad Geotérmica)</h2>
+        <canvas id="graficoCurvasGeotermia" width="600" height="400"></canvas>
+    </div>
+    
+    <script src="script.js"></script> <!-- Asegúrate de tener este archivo JavaScript -->
+</body>
+
+</html>

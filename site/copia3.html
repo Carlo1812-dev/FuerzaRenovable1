@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Fuerza Renovable</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->  
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      
+      .swiper-slide video {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          min-width: 100%;
+          min-height: 100%;
+          object-fit: cover;
+          z-index: -1; /* Asegura que el video esté detrás del contenido */
+      }
+      .swiper-slide .content {
+          position: relative;
+          z-index: 1;
+          color: rgb(15, 13, 13); /* Ajusta según el diseño */
+          text-align: center;
+      }
+  
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Asegura que el video esté detrás del contenido */
+        overflow: hidden;
+    }
+    
+    .video-background video {
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover; /* Asegura que el video cubra toda el área */
+    }
+    </style>
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="preloader">
+      
+      <div class="preloader-body">
+        <div class="cssload-container"><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+        
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap rd-navbar-modern-wrap">
+          <nav class="rd-navbar rd-navbar-modern" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="70px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- LOGO PRINCIPAL-->
+                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logoFuerzaRenovable.jpg" alt="" width="196" height="47"/></a></div>
+                 
+                </div>
+                
+                <div class="rd-navbar-main-element">
+                   <!-- RD Navbar Search-->
+                   
+                    <div class="rd-navbar-search">
+                      <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
+                      <form class="rd-search" action="#">
+                        <div class="form-wrap">
+                          <!--LUPA PARA BUSCAR-->
+                          <label class="form-label" for="rd-navbar-search-form-input">Buscar...</label>
+                          <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="search">
+                          <button class="rd-search-form-submit fl-bigmug-line-search74" type="submit"></button>
+                        </div>
+                      </form>
+                    </div>
+                    
+                    <!-- BARRA DE INICIO PARA ESCOGER LA PAGINA EN LA QUE QUIERA ENTRAR-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Inicio</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">Energias limpias</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Energia geotermica</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">Sobre Nosotros</a>
+                      </li>
+                    </ul>
+                  <div class="rd-navbar-project-hamburger" data-multitoggle=".rd-navbar-main" data-multitoggle-blur=".rd-navbar-wrap" data-multitoggle-isolate>
+                    <div class="project-hamburger"><span class="project-hamburger-arrow-top"></span><span class="project-hamburger-arrow-center"></span><span class="project-hamburger-arrow-bottom"></span></div>
+                    <div class="project-hamburger-2"><span class="project-hamburger-arrow"></span><span class="project-hamburger-arrow"></span><span class="project-hamburger-arrow"></span>
+                    </div>
+                    <div class="project-close"><span></span><span></span></div>
+                  </div>
+                </div>
+                <div class="rd-navbar-project rd-navbar-modern-project">
+                  <div class="rd-navbar-project-modern-header">
+                    <!--MENU DESPLEGABLE-->
+                    <h4 class="rd-navbar-project-modern-title">MENU</h4>
+                    <div class="rd-navbar-project-hamburger" data-multitoggle=".rd-navbar-main" data-multitoggle-blur=".rd-navbar-wrap" data-multitoggle-isolate>
+                      <div class="project-close"><span></span><span></span></div>
+                    </div>
+                  </div>
+                  <div class="rd-navbar-project-content rd-navbar-modern-project-content">
+                    <div>
+                      <div class="heading-6 subtitle">Nuestros Contactos</div>
+                      <div class="row row-10 gutters-10">
+                        <div class="col-12"><img src="images/home-sidebar-394x255.jp" alt="" width="394" height="255"/>
+                        </div>
+                      </div>
+                      <ul class="rd-navbar-modern-contacts">
+                        <li>
+                          <div class="unit unit-spacing-sm">
+                            <div class="unit-left"><span class="icon fa fa-phone"></span></div>
+                            <div class="unit-body"><a class="link-phone" href="tel:#">(+57) 317-366-2793</a></div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="unit unit-spacing-sm">
+                            <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
+                            <div class="unit-body"><a class="link-location" href="#">DIagonal 53 N.º34-53 Bogota DC Colombia</a></div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="unit unit-spacing-sm">
+                            <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
+                            <div class="unit-body"><a class="link-email" href="mailto:#">fuerzarenobable@gmail.com</a></div>
+                          </div>
+                        </li>
+                      </ul>
+                      <ul class="list-inline rd-navbar-modern-list-social">
+                        <li><a class="icon fa fa-facebook" href="#"></a></li>
+                        <li><a class="icon fa fa-twitter" href="#"></a></li>
+                        <li><a class="icon fa fa-google-plus" href="#"></a></li>
+                        <li><a class="icon fa fa-instagram" href="#"></a></li>
+                        <li><a class="icon fa fa-pinterest" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!--FINAL DE MENU DESPLEGABLE-->
+
+      <!-- Swiper-->
+       <!--INICIO DE LA PAGINA CARRUSEL DE INFO Y VIDEO-->
+       <section class="section swiper-container swiper-slider swiper-slider-modern" data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-nav="true" data-slide-effect="fade">
+           <div class="video-background">
+               <video autoplay muted loop>
+                   <source src="./images/VideoInicio.mp4" type="video/mp4">
+                   Tu navegador no soporta videos HTML5.
+               </video>
+           </div>
+           <div class="swiper-wrapper text-left">
+               <div class="swiper-slide context-dark">
+                   <div class="swiper-slide-caption">
+                       <div class="container">
+                           <div class="row justify-content-center justify-content-xxl-start">
+                               <div class="col-md-10 col-xxl-6">
+                                   <div class="slider-modern-box">
+                                       <h1 class="slider-modern-title"><span data-caption-animate="slideInDown" data-caption-delay="0">Fuerza Renovable</span></h1>
+                                       <p data-caption-animate="fadeInRight" data-caption-delay="400">FUERZA REN0VABLE promueve la investigacion, la innovacion y la colabariocion publico-privada en el sector de la Geotermia</p>
+                                       <div class="oh button-wrap"><a class="button button-primary button-ujarak" href="about-us.html" data-caption-animate="slideInLeft" data-caption-delay="400">Read more</a></div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="swiper-slide context-dark">
+                   <div class="swiper-slide-caption">
+                       <div class="container">
+                           <div class="row justify-content-center justify-content-xxl-start">
+                               <div class="col-md-10 col-xxl-6">
+                                   <div class="slider-modern-box">
+                                       <h1 class="slider-modern-title"><span data-caption-animate="slideInLeft" data-caption-delay="0">Energias Limpias</span></h1>
+                                       <p data-caption-animate="fadeInRight" data-caption-delay="400">Las energias limpias se posicionan como una energia en pleno desarrollo en pos de la preocupacion que tenemos actualmente por preservar el medio ambiente y la crisis de las energias agotables. Libre de toda contaminacion y residuo.</p>
+                                       <div class="oh button-wrap"><a class="button button-primary button-ujarak" href="about-us.html" data-caption-animate="slideInLeft" data-caption-delay="400">Leer más</a></div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="swiper-slide context-dark">
+                   <div class="swiper-slide-caption">
+                       <div class="container">
+                           <div class="row justify-content-center justify-content-xxl-start">
+                               <div class="col-md-10 col-xxl-6">
+                                   <div class="slider-modern-box">
+                                       <h1 class="slider-modern-title"><span data-caption-animate="slideInDown" data-caption-delay="0">Energía geotérmica</span></h1>
+                                       <p data-caption-animate="fadeInRight" data-caption-delay="400">La energía geotérmica es la energía almacenada en forma de calor bajo la superficie del terreno.</p>
+                                       <div class="oh button-wrap"><a class="button button-primary button-ujarak" href="about-us.html" data-caption-animate="slideInUp" data-caption-delay="400">Leer más</a></div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+           <!-- Swiper Navigation-->
+           <div class="swiper-button-prev"></div>
+           <div class="swiper-button-next"></div>
+           <!-- Swiper Pagination-->
+           <div class="swiper-pagination swiper-pagination-style-2"></div>
+       </section>
+ <!-- Global Mailform Output-->
+ <div class="snackbars" id="form-output-global"></div>
+ <!-- Javascript-->
+ <script src="js/core.min.js"></script>
+ <script src="js/script.js"></script>
+ <!-- coded by Ragnar-->
+</body>
+</html>
